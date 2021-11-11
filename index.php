@@ -52,6 +52,9 @@
                     <th scope="col">#</th>
                     <th scope="col">First</th>
                     <th scope="col">Second</th>
+                    <th scope="col">Third</th>
+                    <th scope="col">Input Number</th>
+
                 </tr>
             </thead>
             <tbody id="tbody1">
@@ -96,9 +99,9 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Sum</th>
-                    <th scope="col">Difference</th>
+                    <!-- <th scope="col">Difference</th> -->
                     <th scope="col">Product</th>
-                    <th scope="col">Quotient</th>
+                    <!-- <th scope="col">Quotient</th> -->
                 </tr>
             </thead>
             <tbody id="tbody2"></tbody>

@@ -5,9 +5,10 @@
         echo '<tr>';
         echo '<th scope="row">'.($key+1).'</th>';
         foreach($value as $k => $v){
-            echo '<td onchange="" class= "firstNum" id=first'.($key+1).'>'.$v.'</td>';
-            echo '<td><input class="numInput" type="number" id=second'.($key+1).' name="sec'.($key+1).'"></td>';
+            echo '<td onchange="" class= "firstNum" id='.($k).'>'.$v.'</td>';
+            
         }
+        echo '<td><input class="numInput" type="number" id=input'.($key+1).' name="sec'.($key+1).'"></td>';
         echo '</tr>';
     }
 ?>
