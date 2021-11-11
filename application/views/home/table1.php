@@ -8,7 +8,7 @@
             echo '<td onchange="" class= "firstNum" id='.($k).'>'.$v.'</td>';
             
         }
-        echo '<td><input class="numInput" type="number" id=input'.($key+1).' name="sec'.($key+1).'"></td>';
+        echo '<td><input class="numInput" type="number" id=input'.($key).' name="sec'.($key+1).'"></td>';
         echo '</tr>';
     }
 ?>
